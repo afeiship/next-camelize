@@ -7,5 +7,8 @@
 nx.camlize('font-size');
 nx.camlize('font.size');
 nx.camlize('font_size');
-nx.camlize('abc.fontSize'); //abcFontSize
+//fontSize
+
+nx.camlize('abc.fontSize'); 
+//abcFontSize
 ```
