@@ -25,4 +25,12 @@ describe('next/camelize', function () {
     assert.equal( str2, 'fontSize');
   });
 
+
+  it('nx.camelize str: abc.fontSize abcFontSize', function () {
+    var str = 'abc.fontSize';
+    var str2 = nx.camelize(str);
+
+    assert.equal( str2, 'abcFontSize');
+  });
+
 });
