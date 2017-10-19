@@ -1,6 +1,6 @@
 {
   "name": "next-camelize",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "CameCase for next.",
   "homepage": "https://github.com/afeiship/next-camelize",
   "author": {
@@ -21,6 +21,10 @@
     "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
+    "mocha": "^4.0.1",
     "yargs": "^4.7.1"
+  },
+  "dependencies": {
+    "next-js-core2": "github:afeiship/next-js-core2"
   }
 }
