@@ -8,5 +8,11 @@ npm install -S afeiship/next-camelize --registry=https://registry.npm.taobao.org
 
 ## usage
 ```js
-//DOCS here!
+nx.camlize('font-size');
+nx.camlize('font.size');
+nx.camlize('font_size');
+//fontSize
+
+nx.camlize('abc.fontSize'); 
+//abcFontSize
 ```
