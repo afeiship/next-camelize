@@ -5,9 +5,10 @@
   var camelCaseRE = /[-_.]+(.)?/g;
 
   nx.camelize = function(inStr) {
-    return (inStr || EMPTY_STR).replace(camelCaseRE, function(match, chr) {
+    var str = (inStr || EMPTY_STR).replace(camelCaseRE, function(match, chr) {
       return chr ? chr.toUpperCase() : EMPTY_STR;
     });
+    return str[0].toLowerCase() + str.slice(1);
   };
 
   if (typeof module !== 'undefined' && module.exports) {
