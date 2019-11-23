@@ -2,7 +2,7 @@
  * name: @feizheng/next-camelize
  * url: https://github.com/afeiship/next-camelize
  * version: 1.0.0
- * date: 2019-11-23T13:37:50.942Z
+ * date: 2019-11-23T13:38:33.420Z
  * license: MIT
  */
 

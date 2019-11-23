@@ -12,7 +12,7 @@
    */
 
   gulp.task('bump', function() {
-    gulp
+    return gulp
       .src(['./*.json'])
       .pipe($.bump())
       .pipe(gulp.dest('./'));
