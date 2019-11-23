@@ -1,7 +1,7 @@
 {
-  "name": "next-camelize",
-  "version": "0.0.1",
-  "description": "nextBoilerplatePackageDescription",
+  "name": "@feizheng/next-camelize",
+  "version": "1.0.0",
+  "description": "CameCase for next.",
   "main": "dist/next-camelize.js",
   "authors": [
     "afei"

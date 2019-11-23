@@ -1,14 +1,14 @@
 /*!
- * name: next-camelize
+ * name: @feizheng/next-camelize
  * url: https://github.com/afeiship/next-camelize
  * version: 1.0.0
- * date: 2019-09-05T03:54:41.325Z
+ * date: 2019-11-23T13:37:50.942Z
  * license: MIT
  */
 
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var EMPTY_STR = '';
   var camelCaseRE = /[-_.]+(.)?/g;
 

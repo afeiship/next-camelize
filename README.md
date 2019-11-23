@@ -3,7 +3,7 @@
 
 ## installation
 ```bash
-npm install -S afeiship/next-camelize --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-camelize
 ```
 
 ## usage
