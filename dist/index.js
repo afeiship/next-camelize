@@ -1,19 +1,20 @@
 /*!
- * name: @feizheng/next-camelize
- * url: https://github.com/afeiship/next-camelize
+ * name: @jswork/next-camelize
+ * description: CameCase for next.
+ * homepage: https://github.com/afeiship/next-camelize
  * version: 1.0.0
- * date: 2019-11-23T13:38:33.420Z
+ * date: 2020-11-17T08:42:30.418Z
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var EMPTY_STR = '';
   var camelCaseRE = /[-_.]+(.)?/g;
 
-  nx.camelize = function(inStr) {
-    var str = (inStr || EMPTY_STR).replace(camelCaseRE, function(match, chr) {
+  nx.camelize = function (inStr) {
+    var str = (inStr || EMPTY_STR).replace(camelCaseRE, function (_, chr) {
       return chr ? chr.toUpperCase() : EMPTY_STR;
     });
     return str[0].toLowerCase() + str.slice(1);
@@ -23,5 +24,3 @@
     module.exports = nx.camelize;
   }
 })();
-
-//# sourceMappingURL=next-camelize.js.map
