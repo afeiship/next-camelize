@@ -15,12 +15,12 @@ npm install -S @jswork/next-camelize
 ```js
 import '@jswork/next-camelize';
 
-nx.camlize('font-size');
-nx.camlize('font.size');
-nx.camlize('font_size');
+nx.camelize('font-size');
+nx.camelize('font.size');
+nx.camelize('font_size');
 //fontSize
 
-nx.camlize('abc.fontSize'); 
+nx.camelize('abc.fontSize'); 
 //abcFontSize
 ```
 
