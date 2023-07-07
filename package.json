@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-camelize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CameCase for next.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,13 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "camelize",
+    "next",
+    "camelcase-input",
+    "string",
+    "utility",
+    "lang"
+  ]
 }
