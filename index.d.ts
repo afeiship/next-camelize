@@ -1,3 +1,3 @@
 interface NxStatic {
-  camelize:(str: String) => String;
+  camelize:(str: string) => string;
 }
